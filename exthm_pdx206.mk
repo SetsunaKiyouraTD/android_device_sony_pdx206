@@ -23,17 +23,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common Pixel Experience stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_GAPPS_ARCH := arm64
+EXTHM_GAPPS := true
 IS_PHONE := true
 
 PRODUCT_BRAND := Sony
 PRODUCT_DEVICE := pdx206
 PRODUCT_MANUFACTURER := Sony
 
-PRODUCT_NAME := aosp_pdx206
-PRODUCT_MODEL := Xperia 5 II
+PRODUCT_NAME := exthm_pdx206
+PRODUCT_MODEL := XQ-AS72
 
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
