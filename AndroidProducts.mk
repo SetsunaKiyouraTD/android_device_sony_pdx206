@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_pdx206.mk
+    $(LOCAL_DIR)/dot_pdx206.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_pdx206-user \
-    exthm_pdx206-userdebug \
-    exthm_pdx206-eng
+    dot_pdx206-user \
+    dot_pdx206-userdebug \
+    dot_pdx206-eng
