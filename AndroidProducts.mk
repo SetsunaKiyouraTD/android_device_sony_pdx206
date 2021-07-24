@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_pdx206.mk
+    $(LOCAL_DIR)/arrow_pdx206.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_pdx206-user \
-    dot_pdx206-userdebug \
-    dot_pdx206-eng
+    arrow_pdx206-user \
+    arrow_pdx206-userdebug \
+    arrow_pdx206-eng
